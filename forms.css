@@ -76,7 +76,7 @@ span{
 }
 
 .form1{
-    background-image: url(../../Pictures/Screenshot_20221123-212023.jpg);
+    background-image: url(Pictures/Screenshot_20221123-212023.jpg);
     background-color: rgb(165, 158, 158);
     background-blend-mode:multiply;
     border: 1px solid olive;
@@ -89,7 +89,7 @@ span{
 }
 
 .form2{
-    background-image: url(../../Pictures/images\ \(9\).jpeg);
+    background-image: url(Pictures/images\ \(9\).jpeg);
     background-color: rgb(75, 72, 72);
     background-blend-mode:multiply;
     border: 1px solid olive;
