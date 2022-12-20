@@ -8,7 +8,7 @@ body{
 
 .header{
     background: fixed;
-    background-image: url(../../Pictures/b\ i.jpg);
+    background-image: url(b\ i.jpg);
     background-color:rgb(39, 39, 39);
     background-blend-mode: multiply;
     padding-bottom: 10px;
