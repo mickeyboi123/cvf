@@ -3,6 +3,15 @@
     padding: 0%;
 }
 
+.header{
+    height: 30vh;
+    width: 100%;
+    padding-top: 150px;
+    background-image: url(Pictures/b\ i.jpg);   
+    background-color:rgb(75, 72, 72);
+    background-blend-mode: multiply;
+}
+
 nav{
     position: fixed;
     z-index: 1000; 
@@ -28,7 +37,8 @@ nav img{
 }
 
 .nav-links{
-/*     flex: 1; */
+    /* flex: 1; */
+    align-items: center;
     text-align: right;
     margin-right: 10px;
 
