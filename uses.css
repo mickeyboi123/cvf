@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100%;
+    padding-top: 150px;
+    background: fixed;
+
+    background-image: url(../../Pictures/b\ i.jpg); 
+    background-color:rgb(36, 34, 34);
+    background-blend-mode: multiply;  
+}
+nav{
+    position: fixed;
+    z-index: 1000; 
+    top: 0;
+    right: 0;
+    height: 110px;
+    width: 100%;
+    /* background-image: url(../../Pictures/b\ i\ \(9\).jpg);    */
+    /* background-color:rgb(48, 45, 45); */
+    background: rgba(8,5, 2, 0.2);
+    /* background-blend-mode:multiply; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 120px;
+    border-radius: 55px;
+    margin-left: 10px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+
+    
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+  
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.nav-links ul li a:hover{
+    cursor: pointer;
+}
+span{
+    color: rgb(187, 187, 9);
+}
+
+.pan{
+     color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+div .ul{
+    color:olive;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+p{
+    color: white;
+    margin-left: 70px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+/* h4{
+    color: rgb(229, 229, 192);
+    text-align: center;
+    margin-left: 1000px;
+    padding-bottom: 0%;
+} */
+
+.ul img{
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.active{
+    background:olive;
+    padding: 5px;
+    transition: 5s;
+
+}
+
+.telephone{
+    text-align: center;
+    margin-right: 100px;
+    /* font-size: 20px; */
+     margin-top: 40px; 
+ }
+
+ .facebook{
+    display: flex;
+    margin-left: 310px;
+    margin-top: 50px;
+    align-items: center;
+ }
+ .facebook img{
+    width: 20px;
+    margin-left: 110px;
+    
+ }
+ .back{
+    text-align: right;
+ }
+
+ .attribution{
+    color: black;
+ }
+
+ @media screen and (max-width:1024px)  {
+    .rent{
+        margin-left: 7%;
+    }
+    
+ .facebook{
+    display: flex;
+    margin-left: 130px;
+    
+
+    }
+    
+
+    }
+
+    @media screen and (max-width:768px)  {
+
+        .ul img{
+            width: 70%;
+        }
+
+        .telephone{
+            margin-left:100px ;
+        }
+        .facebook{
+            margin-left: 50px;
+        }
+
+    }
+
+    @media screen and (max-width:425px){
+
+        .nav-links ul li a{
+            font-size: 14px;
+        }
+    
+        nav img{
+            width: 70px;
+        }
+
+        nav{
+            height: 70px;
+        }
+        /* .nav-links ul li{
+            display:block;
+        }
+    
+    
+        .nav-links{
+            position: absolute;
+            background:red;
+            height: 86vh;
+            padding-top: 2px;
+            width: 200px;
+            top: 0;
+            right: 0;
+            text-align: left;
+            z-index: 2;
+        } */
+
+        h1{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        p{
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .ul img{
+            margin-left: 10px;
+        }
+
+        .pan{
+            font-size: 20px;
+        }
+        div .ul{
+            margin-left: 40px;
+        }
+    
+    
+        .facebook{
+            margin-left: 25%;
+        }
+    
+        .facebook img{
+            margin-left: 20px;
+            align-items: center;
+         }
+         .telephone{
+            font-size: 13px;
+            text-align: center;
+         }
+         .attribution{
+            font-size: 12px;
+         }
+         .back{
+            font-size: 12px;
+            text-align: right;
+         }
+        }
+
+        @media screen and (max-width:375px) {
+            .nav-links ul li a{
+                font-size: 11px;
+            }
+        
+            nav img{
+                width: 60px;
+            }
+        
+            nav{
+                height: 70px;
+            }
+        
+           
+    
+        }
+
+        
+    @media screen and (max-width:320px) {
+        .nav-links ul li a{
+            font-size: 12px;
+        }
+        .nav-links ul li{
+            padding: 1%;
+        }
+    
+        nav img{
+            width: 80px;
+        }
+    
+        nav{
+            height: 80px;
+
+        }
+
+        }

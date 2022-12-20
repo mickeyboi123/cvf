@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet " href="./forms.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script>
+         $(document).ready(function (){
+            $("form2") .submit(function(event){
+                event.preventDefault();
+                var submit=$("mail-submit").val();
+                $(".form-message").load("mail.php", {
+                    submit:submit
+                });
+            })
+        } )
+    </script>
+
+</head>
+<body>
+
+
+    <nav>
+        
+
+        <a href="index.html"> <img src="../../Pictures/logo.png" ></a>
+    
+
+        <div class="nav-links">
+    <ul>
+       <li> <a  href="index.html" >Home</a></li>
+
+       <li> <a href="uses.html" >Uses</a></li>
+
+        <li> <a href="gallery.html" >Gallery</a></li>
+
+        <li><a href="contact.html" >Contact </a></li>
+
+         <li>
+            <a href="forms.html"  class=" active"> Forms  </a>
+            
+            
+         </li>
+    
+    </ul>
+        </div>
+    </nav>
+
+
+    <section class="header">
+
+      
+
+
+
+        <form class="form1">
+            
+            <legend>Join us today</legend>
+            <h1 style="margin-bottom: 10px;">🎆🌟🌟🌟🌟🌟🌟🎇</h1>
+
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Middle name" required >
+            <input type="text" placeholder="Last name" required >
+            <input type="text" placeholder="Address" >
+            <input type="number" placeholder="Telephone number" >
+            <input type="email" placeholder="E-mail" >
+            <input type="number" placeholder="Age">
+           <div> <label class="label1">Gender: <input type="radio" name="type" checked value="Male" style="padding: 0; width: 20px;">Male<input type="radio" name="type" value="Female" style="padding: 0; width: 30px;">Female</label></div>
+        
+
+           
+           <input  type="submit" value="Done" class="submit" >
+           <input type="reset" value="reset" class="reset" >
+    </form>
+
+
+        <form class="form2" action="submit.php" method="post">
+            
+                <legend>Order your honey now!!!</legend>
+                <h1 style="margin-bottom: 10px;">✨✨✨✨</h1>
+    
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Middle name" required >
+                <input type="text" placeholder="Last name" required >
+                <input type="text" placeholder="Address" >
+                <input type="number" placeholder="Telephone number" >
+                <input type="email" placeholder="E-mail" >
+               <div> <label class="label2">How many liters:</label>
+            <input type="number" placeholder="Number" style="width: 70px; padding: 10px; font-size: 15px;"></div>
+
+                <input id="mail-submit" type="submit" value="Done" class="submit" >
+                <input type="reset" value="reset" class="reset" >
+                <p id="form-message"></p>
+
+
+        </form>
+    </section>
+
+    <section class="foot">
+        <h2   class=" telephone animate__animated animate__rollIn">You can also follow us on our social media platforms</h2>
+    
+        <div class="facebook">
+            <a  href="https://www.facebook.com/michael.adenekan.14"><img src="./icons/facebook.svg"></a>
+            
+            <a  href="https://wa.me/message/FGYAZWVLWACUN1"><img style="width: 30px;" src="../../Downloads/whatsapp.jfif"></a>
+             
+            <a  href="https://www.instagram.com/adenekanm801/"> <img src="./icons/instagram.svg"></a>
+    
+            <a  href="http://twitter.com/123Adenekan?t=dRz4xj6adVUm5JIGxlBzUQ&s=09" >  <img src="./icons/twitter.svg"></a>
+        </div>
+    
+       <h2   class="telephone">WE GOT YOU COVERED</h2>
+    
+    
+    
+    
+                <footer>
+                    <a href="forms.html" > <h3 class="back" >Back to the top <span>⬆⬆⬆</span></h3></a>
+                    <p class="attribution">
+                      Challenge by <a href="index.html" >,,Mickey Honey</a>. 
+                      Coded by Mickey Boi.
+                    </p>
+                   
+                  </footer>
+    </section>
+</body>
+</html>

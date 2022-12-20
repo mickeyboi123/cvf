@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+}
+
+.header{
+    background: fixed;
+    background-image: url(../../Pictures/b\ i.jpg);
+    background-color:rgb(39, 39, 39);
+    background-blend-mode: multiply;
+    padding-bottom: 10px;
+    padding-top: 150px;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    z-index: 1000; 
+    top: 0;
+    right: 0;
+    height: 110px;
+    width: 100%;
+    /* background-image: url(../../Pictures/b\ i\ \(9\).jpg);    */
+    /* background-color:rgb(48, 45, 45); */
+    background: rgba(8,5, 2, 0.2);
+    /* background-blend-mode:multiply; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 120px;
+    border-radius: 55px;
+    margin-left: 10px;
+}
+
+.nav-links{
+    /* flex: 1; */
+    text-align: right;
+    margin-right: 10px;
+
+    
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 6px 12px;
+    
+  
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.nav-links ul li a:hover{
+    cursor: pointer;
+}
+
+.active{
+    background:olive;
+    padding: 5px;
+}
+
+span{
+    color: olive;
+}
+
+.form1{
+    background-image: url(../../Pictures/Screenshot_20221123-212023.jpg);
+    background-color: rgb(165, 158, 158);
+    background-blend-mode:multiply;
+    border: 1px solid olive;
+    margin-left: 23%;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.form2{
+    background-image: url(../../Pictures/images\ \(9\).jpeg);
+    background-color: rgb(75, 72, 72);
+    background-blend-mode:multiply;
+    border: 1px solid olive;
+    text-align: center;
+    width: 50%;
+    margin-left: 23%;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+input{
+    width: 70%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid olive;
+
+}
+
+.reset{
+    background-color:aliceblue; 
+    width: 60px;
+     padding: 0%;
+      border-radius: 5px;
+       border-color:olive;
+}
+.submit{
+    background-color: crimson;
+      width: 60px;
+       padding: 0%;
+        border-radius: 5px;
+         border-color:olive;
+}
+
+legend{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+
+.label1{
+    color: white;
+    background-color:rgb(161, 161, 5);
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.label2{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+div{
+    margin-top: 20px;
+}
+
+
+.telephone{
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ .back{
+    text-align: right;
+ }
+
+ .facebook{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 50px;
+    align-items: center;
+ }
+ .facebook img{
+    width: 20px;
+    margin-left: 110px;
+ }
+
+ .foot{
+    background-color: #fff;
+    margin-top: 30px;
+    width: 100%;
+    
+ }
+
+ .attribution{
+    color: black;
+ }
+ @media screen and (max-width:1024px)  {
+
+    
+     .rent{
+            margin-left: 7%;
+        }
+        
+     .facebook{
+        display: flex;
+        margin-left: 170px;
+        
+    
+        }
+        
+    
+        }
+
+        @media screen and (max-width:768px)  {
+            .class{
+                margin-left: 5%;
+            }
+            .gallery img{
+                width: 300px;
+                height: 300px;
+            
+            
+            
+            }
+    
+            .telephone{
+                /* margin-left:60px ; */
+                text-align: center;
+            }
+            .facebook{
+                margin-left: 55px;
+            }
+    
+        }
+
+        @media screen and (max-width:425px){
+            .nav-links ul li a{
+                font-size: 14px;
+            }
+        
+            nav img{
+                width: 70px;
+            }
+
+            nav{
+                height: 70px;
+            }
+    
+            .form1{
+                width: 80%;
+                margin-left: 25px;
+            }
+
+            .form2{
+                width: 80%;
+                margin-left: 25px;
+            }
+        
+           legend{
+            font-size: 40px;
+           }        
+        
+            
+       
+        
+            .facebook{
+                margin-left: 25%;
+            }
+        
+            .facebook img{
+                margin-left: 20px;
+                align-items: center;
+             }
+             .telephone{
+                font-size: 13px;
+                text-align: center;
+             }
+             .attribution{
+                font-size: 12px;
+             }
+             .back{
+                font-size: 12px;
+                text-align: right;
+             }
+            }
+
+            @media screen and (max-width:375px) {
+                .nav-links ul li a{
+                    font-size: 11px;
+                }
+
+            
+                nav img{
+                    width: 60px;
+                }
+            
+                nav{
+                    height: 70px;
+                }
+            
+               .form1{
+                margin-left: 20px;
+               }
+
+               .form2{
+                margin-left: 20px;
+               }
+            
+            
+            }
+
+            
+    @media screen and (max-width:320px) {
+        .nav-links ul li a{
+            font-size: 12px;
+        }
+        .nav-links ul li{
+            padding: 0%;
+        }
+        
+       
+    
+        nav img{
+            width: 80px;
+        }
+    
+        nav{
+            height: 80px;
+        }
+
+        .form1{
+            width: 60%;
+            margin-left: 40px;
+           }
+
+           .form2{
+            width: 60%;
+            margin-left: 40px;
+           }
+           input{
+            height: 20px;
+           }
+           .reset{
+            width: 50px;
+            font-size: 15px;
+        }
+        .submit{
+              width: 60px;
+              font-size: 15px;
+        }
+        
+        legend{
+            font-size: 30px;
+        }
+        
+        .label1{
+            font-size: 25px;
+        }
+
+        
+        .label2{
+            font-size: 20px;
+        }
+        }
+

@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 30vh;
+    width: 100%;
+    padding-top: 150px;
+    background-image: url(../../Pictures/b\ i.jpg);   
+    background-color:rgb(75, 72, 72);
+    background-blend-mode: multiply;
+}
+nav{
+    position: fixed;
+    z-index: 1000; 
+    top: 0;
+    right: 0;
+    height: 110px;
+    width: 100%;
+    /* background-image: url(../../Pictures/b\ i\ \(9\).jpg);    */
+    /* background-color:rgb(48, 45, 45); */
+    background: rgba(8,5, 2, 0.2);
+    /* background-blend-mode:multiply; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav img{
+    width: 120px;
+    border-radius: 55px;
+    margin-left: 10px;
+}
+
+.nav-links{
+    /* flex: 1; */
+    text-align: right;
+    margin-right: 10px;
+
+    
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    
+  
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.nav-links ul li a:hover{
+    cursor: pointer;
+}
+.active{
+    background:rgb(160, 160, 28);
+    padding: 5px;
+
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+h5{
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+span{
+    color: rgb(212, 212, 71);
+}
+
+.class{
+    /* width: 28%; */
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gap{
+    margin-left: 100px;
+}
+
+
+
+
+.gallery img{
+    width: 400px;
+    height: 400px;
+    /* display: block; */
+
+
+
+}
+.gallery {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer:hover{
+    background: rgba(8, 2, 2, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.layer:hover h3{
+    bottom: 79%;
+    opacity:1;
+}
+
+
+div{
+    display: flex;
+
+}
+
+.telephone{
+    text-align: center;
+    margin-top: 40px;
+ }
+
+ .facebook{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 30px;
+    align-items: center;
+ }
+ .facebook img{
+    width: 20px;
+    margin-left: 110px;
+ }
+
+
+ h4{
+    text-align: right;
+    
+ }
+ .attribution{
+    color: black;
+    text-align: left;
+ }
+
+ @media screen and (max-width:1024px)  {
+
+    
+.class{
+    margin-left: 7%;
+}
+    .rent{
+        margin-left: 7%;
+    }
+    
+ .facebook{
+    display: flex;
+    margin-left: 170px;
+    
+
+    }
+    
+
+    }
+
+    @media screen and (max-width:768px)  {
+        .class{
+            margin-left: 5%;
+        }
+        .gallery img{
+            width: 300px;
+            height: 300px;
+        
+        
+        
+        }
+
+        .telephone{
+            margin-left:60px ;
+        }
+        .facebook{
+            margin-left: 70px;
+        }
+
+    }
+
+    @media screen and (max-width:425px){
+        .nav-links ul li a{
+            font-size: 14px;
+        }
+
+        nav{
+            height: 70px;
+        }
+    
+        nav img{
+            width: 70px;
+        }
+        .header{
+            height: 20vh;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+        h5{
+            font-size: 15px;
+        }
+
+        .gap{
+            margin-left: 40px;
+        }
+        .gallery{
+            margin-left: 20px;
+        }
+
+        .gallery img{
+            width: 150px;
+            height: 150px;
+        }
+
+        .layer h3{
+            font-size: 18px;
+        }
+
+        .class{
+            margin-left: 10px;
+        }
+    
+    
+    
+       
+    
+    
+    
+        .facebook{
+            margin-left: 30%;
+        }
+    
+        .facebook img{
+            margin-left: 20px;
+            align-items: center;
+         }
+         .telephone{
+            font-size: 13px;
+            text-align: center;
+         }
+         .attribution{
+            font-size: 12px;
+         }
+         .back{
+            font-size: 12px;
+            text-align: right;
+         }
+        }
+
+        @media screen and (max-width:375px) {
+            .nav-links ul li a{
+                font-size: 11px;
+            }
+        
+            nav img{
+                width: 60px;
+            }
+        
+            nav{
+                height: 70px;
+            }
+            .gap{
+                margin-left: 30px;
+            }
+            
+            .gallery{
+                margin-left: 8px;
+            }
+        }
+
+        
+    @media screen and (max-width:320px) {
+        .nav-links ul li a{
+            font-size: 12px;
+        }
+        .nav-links ul li{
+            padding: 0%;
+        }
+    
+        nav img{
+            width: 80px;
+        }
+    
+        nav{
+            height: 80px;
+        }
+
+        .gap{
+            margin-left: 5px;
+        }
+        
+        .gallery{
+            margin-left: 0%;
+        }
+
+            
+
+        }
