@@ -182,7 +182,7 @@ h4{
         }
         @media screen and (max-width:375px) {
             .nav-links ul li a{
-                font-size: 9px;
+                font-size: 8px;
             }
         
             nav img{
