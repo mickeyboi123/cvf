@@ -520,7 +520,7 @@ transition: 5s;
 
     @media screen and (max-width:375px) {
         .nav-links ul li a{
-            font-size: 13px;
+            font-size: 9px;
         }
         .nav-links ul li{
             padding: 2%;
