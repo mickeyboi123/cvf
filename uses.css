@@ -241,7 +241,7 @@ p{
 
         @media screen and (max-width:375px) {
             .nav-links ul li a{
-                font-size: 11px;
+                font-size: 8px;
             }
         
             nav img{
