@@ -6,7 +6,7 @@
     height: 30vh;
     width: 100%;
     padding-top: 150px;
-    background-image: url(../../Pictures/b\ i.jpg);   
+    background-image: url(b\ i.jpg);
     background-color:rgb(75, 72, 72);
     background-blend-mode: multiply;
 }
