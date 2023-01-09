@@ -112,14 +112,14 @@ input{
 }
 
 .reset{
-    background-color:aliceblue; 
+    background-color:red; 
     width: 60px;
      padding: 0%;
       border-radius: 5px;
        border-color:olive;
 }
 .submit{
-    background-color: crimson;
+    background-color: light green;
       width: 60px;
        padding: 0%;
         border-radius: 5px;
